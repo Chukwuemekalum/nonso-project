@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="assets/css/auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="content">
+        <div class="background-image">
+            <img src="assets/images/background.png" alt="">
+        </div>
+
+        <div class="header">
+            <div class="logo">
+                <span>Logo</span>
+            </div>
+
+            <ul class="nav-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Scholarships</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+            <ul class="auth-link">
+                <li><a class="signin" href="#">Sign in</a></li>
+                <li><a class="signup" href="#">Sign up</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="leftcolumn">
+                <div class="top">
+                    <div class="logo">
+                        <span>Logo</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <img src="assets/images/signup.png">
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <form>
+                    <div class="headingscontainer">
+                        <h2>Sign up For Account</h2>
+                        <img src="assets/images/icons/cancel.png">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group mr-5">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="fname" placeholder="Your First Name" spellcheck="false"
+                                data-ms-editor="true">
+                        </div>
+                        <div class="input-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Your Last Name" spellcheck="false"
+                                data-ms-editor="true">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email address">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group mr-5">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Your Password">
+                        </div>
+                        <div class="input-group">
+                            <label for="password2">Password</label>
+                            <input type="password" id="password2" name="password2" placeholder="Confirm Your Password">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label style="display: flex;">
+                            <input type="checkbox" name="remember"> <span>I accept all <a
+                                    href="#">terms and
+                                    conditions</a></span>
+                        </label>
+                    </div>
+
+                    <div class="form-row justify-center">
+                        <input type="submit" value="Sign Up">
+                    </div>
+
+                    <div class="form-row justify-center" style="margin-top: 30px;">
+                        <p>Already Have an account? <a href="signin.html">Login
+                                Instead</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
