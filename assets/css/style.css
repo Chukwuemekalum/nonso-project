@@ -87,7 +87,8 @@ ul {
     color: #ffff;
     font-weight: 500;
     display: flex;
-    padding-left: 20%;
+    padding-left: 12%;
+    font-size: 14px;
 }
 
 .navigation .active {
